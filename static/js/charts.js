@@ -79,9 +79,9 @@ function buildCharts(sample) {
     var barData = [{
       x: sample_values.slice(0,10).reverse,
       y: yticks,
+      orientation: 'h',
       type: "bar",
       hover_text: otu_labels.slice(0,10).reverse,
-      orientation: "h",
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
