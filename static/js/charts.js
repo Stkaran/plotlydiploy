@@ -97,8 +97,8 @@ function buildCharts(sample) {
       hover_text: samples.otu_labels,
       mode: "markers",
       marker: {
-        size: y,
-        color: x 
+        size: samples.sample_values,
+        color: samples.otu_ids  
       }
 
     }];
