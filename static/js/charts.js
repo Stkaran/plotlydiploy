@@ -114,6 +114,8 @@ function buildCharts(sample) {
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title:"Bacteria Cultures Per Sample",
+      x: "OTU ID",
+      hovertemplate: 'otu_labels',
       showlegend: false,
       height: 600,
       width: 600
