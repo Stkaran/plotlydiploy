@@ -75,7 +75,7 @@ function buildCharts(sample) {
     var sample_values = endSample.sample_values
 
     // 3. Create a variable that holds the washing frequency.
-    var washingFrequency = endMeta.wfreq
+    var washingFrequency = parseFloat(endMeta.washingFrequency)
 
     // 7. Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order  
