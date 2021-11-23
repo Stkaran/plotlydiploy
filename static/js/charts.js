@@ -117,10 +117,9 @@ function buildCharts(sample) {
       showlegend: false,
       height: 600,
       width: 600,
-
-        xaxis: {
+      xaxis: {
           title: {
-            text: 'OTU ID',
+            text: "OTU ID",
           }}
       };
 
