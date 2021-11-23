@@ -115,7 +115,7 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
       showlegend: false,
-      hovermode: closest,
+      hovermode: 'closest',
       height: 600,
       width: 600
     };
