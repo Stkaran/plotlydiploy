@@ -118,11 +118,10 @@ function buildCharts(sample) {
       height: 600,
       width: 600,
 
-      xaxis: {
-        title: {
-          text: 'OTU ID'}
-     }
-
+        xaxis: {
+          title: {
+            text: 'OTU ID',
+          }}
       };
 
     // 3. Use Plotly to plot the data with the layout.
