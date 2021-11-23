@@ -116,7 +116,7 @@ function buildCharts(sample) {
       title: "Bacteria Cultures Per Sample",
       showlegend: false,
       height: 600,
-      width: 600,
+      width: 1200,
 
       xaxis: {
         title: {
