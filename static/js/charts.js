@@ -120,9 +120,7 @@ function buildCharts(sample) {
 
       xaxis: {
         title: {
-          text: 'OTU ID',
-          width: 1200
-        }
+          text: 'OTU ID'}
      }
 
       };
