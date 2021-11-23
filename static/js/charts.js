@@ -115,10 +115,14 @@ function buildCharts(sample) {
     var bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
       showlegend: false,
-      hovermode: 'closest',
       height: 600,
-      width: 600
-    };
+      width: 600,
+
+      xaxis: {
+        title: {
+          text: 'OTU ID',
+        }}
+      };
 
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout);
